@@ -13,6 +13,7 @@ public class JPARemove {
 
         em.getTransaction().begin();
         try {
+
             // Buscar el país imaginario usando su código (clave primaria)
             country fictionalCountry = em.find(country.class, "IMA");
             // Verificar si el país existe antes de eliminarlo
