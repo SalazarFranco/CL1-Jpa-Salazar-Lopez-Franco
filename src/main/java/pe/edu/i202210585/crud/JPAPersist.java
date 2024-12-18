@@ -17,8 +17,6 @@ public class JPAPersist {
 
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("examen");
         EntityManager em=emf.createEntityManager();
-       // city city=new city(null,"Hugo","Hugo",100,new country("ABW","Aruba", North_America,"Caribbean",193.00,0,103000,78.4,828.00,793.00,"Aruba","Nonmetropolitan Territory of The Netherlands","Beatrix",129,"AW"));
-
 
         try {
             // Crear un país imaginario
